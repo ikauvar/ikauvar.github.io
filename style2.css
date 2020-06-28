@@ -101,14 +101,10 @@ a:hover {
   margin-top: -23px;
   margin-bottom: 10px;
 }
-/*
-.thumb img {
-  height: 700px;
-}*/
 
 .entry img {
   float: left;
-  margin: 0px 15px 85px 0px;
+  margin: 0px 15px 25px 0px;
   width: 125px;
 }
 
@@ -116,7 +112,7 @@ a:hover {
   margin: 0px 15px 0px 0px;
   padding: 0px;
   overflow: auto;
-  width: 665px;
+  /*width: 665px;*/
 }
 
 hr {
@@ -127,25 +123,3 @@ hr {
     margin: 1em 0;
     padding: 0;
 }
-
-/*li img {
-  float: right;
-  margin: 0 15px 0px 0px;
-  width: 125px;
-}
-
-li img::after {
-    content: '';
-    display: table;
-    clear: both;
-}
-
-li p {
-  /*font: 200 12px/1.5 Georgia, Times New Roman, serif;*/
-/*}
- 
-li {
-  margin: 0px 0px 0px 0px;
-  padding: 0px;
-  overflow: auto;
-}**/
