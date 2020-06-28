@@ -66,6 +66,11 @@ td img {
   padding-right: 15px;
 }
 
+.thumb img {
+  width: 230px;
+  padding-right: 15px;
+}
+
 .social-links {
     width: 8em;
 }
