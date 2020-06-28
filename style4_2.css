@@ -62,9 +62,8 @@ td {
 }
 
 td img {
-  width: 130px;
- padding-right: 15px;
-
+  /*width: 130px;*/
+  padding-right: 15px;
 }
 
 .social-links {
