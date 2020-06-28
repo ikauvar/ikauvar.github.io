@@ -1,0 +1,202 @@
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><TITLE>Kauvar</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=windows-1252">
+
+
+<STYLE type=text/css>
+a:link { color: #000000; text-decoration=none }
+a:visited { color: #0000C0; text-decoration=none }
+a:active { color: #0000FF; text-decoration=none }
+a:hover { color: #0080FF; text-decoration=none }
+body { font-family: Arial, Helvetica, 'Sans Serif'; font-size: 8pt; margin-top: 0em; margin-bottom: 0em; }
+h1 { font-size: 200%; margin-top: 0em; margin-bottom: 0em;}
+h2 { font-size: 150%;margin-top: 0em; margin-bottom: 0em;}
+h3 { font-size: 100%; margin-top: 0em; margin-bottom: 0em;}
+p { margin-top: 0em; margin-bottom: 0em; }
+* {
+font-family: Verdana, Helvetica;
+font-size: 10pt;
+}
+</STYLE>
+
+  <script type="text/javascript">
+    var photos = new Array()
+    photos[0] = '#barcelona1'
+    photos[1] = '#florence1'
+    photos[2] = '#reggioemilia1'
+    photos[3] = '#florence2'
+    photos[4] = '#barcelona_boy'
+    // photos[5] = '#denver'
+    // photos[6] = '#roy'
+    // photos[7] = '#john'
+    var numphotos = 4
+
+    var count = -1
+    function leftArrowPressed() {
+            count = count - 1
+            if (count < 0) { count = 0 }
+            if (count > numphotos) {count = numphotos}
+            window.location.href=photos[count]
+       // Your stuff here
+    }
+
+    function rightArrowPressed() {
+            count = count + 1
+            if (count < 0) { count = 0 }
+            if (count > numphotos) {count = numphotos}
+            window.location.href=photos[count]
+	    
+       // Your stuff here
+    }
+
+    document.onkeydown = function(evt) {
+        evt = evt || window.event;
+        switch (evt.keyCode) {
+            case 37:
+                leftArrowPressed();
+                break;
+            case 39:
+                rightArrowPressed();
+                break;
+        }
+    };
+  </script>
+
+<BODY>
+<TABLE border=0 width=100% cellspacing=50>
+
+
+<TR> <!-- title -->
+<TD align="center">
+<h2>Photographs by Isaac Kauvar<h2>
+<p> Use left/right arrow keys to move between images. </p>
+</TD>
+
+</TR>
+
+
+
+
+
+
+
+              <TR>
+              <TD align="center">
+              <div id=barcelona1>
+                <br>
+              <p align="center"><a><img width=100% border="0" src="photographs/barcelona1.jpg"></a>
+              </TD>
+              </div>
+              </TR>
+
+              <TR>
+              <TD align="center">
+              <div id=reggioemilia1>
+                <br>
+              <p align="center"><a><img width=100% border="0" src="photographs/reggioemilia1.jpg"></a>
+              </TD>
+              </div>
+              </TR>
+
+              <TR>
+              <TD align="center">
+              <div id=florence1>
+                <br>
+              <p align="center"><a><img width=100% border="0" src="photographs/florence1.jpg"></a>
+              </TD>
+              </div>
+              </TR>
+
+              <TR>
+              <TD align="center">
+              <div id=florence2>
+              <br>
+              <p align="center"><a><img width=100% border="0" src="photographs/florence2.jpg"></a>
+              </TD>
+              </div>
+              </TR>
+
+              <TR>
+              <TD align="center">
+              <div id=barcelona_boy>
+                <br>
+              <p align="center"><a><img width=100% border="0" src="photographs/barcelona_boy.jpg"></a>
+              </TD>
+              </div>
+              </TR>
+
+<!--               <TR>
+              <TD align="center">
+              <div id=denver>
+              <p align="center"><a><img width=100% border="0" src="photographs/denver.jpg"></a>
+              </TD>
+              </div>
+              </TR>
+
+              <TR>
+              <TD align="center">
+              <div id=roy>
+              <p align="center"><a><img width=100% border="0" src="photographs/roy.jpg"></a>
+              </TD>
+              </div>
+              </TR>
+
+              <TR>
+              <TD align="center">
+              <div id=john>
+              <p align="center"><a><img width=100% border="0" src="photographs/john.jpg"></a>
+              </TD>
+              </div>
+              </TR>
+ -->
+
+
+
+
+              <TR vAlign=top>
+              <TD align="left" width=100% colspan="1">
+</TD>
+</TR>
+
+
+<TR><!-- abstract -->
+
+<TD>
+
+
+<br>
+
+
+<br>
+
+</TD>
+</TR>
+
+              <TR><!-- resources -->
+
+<TD>
+
+Copyright &copy; Isaac Kauvar
+<br>
+<br>
+Contact: <div><tt>&#105;&#107;&#97;&#117;&#118;&#97;&#114;&#64;<script
+            type="text/javascript">document.write([('&#112;t&#97;' +
+            /* security */ '&#180').replace('2', /* by obscurity */
+            '5').replace('8','1'), '&#102;o&#114', 'd.&#101;' +
+            '&#99'.replace('9','10').replace('9', '0'),
+            '&#117;'].join(';'));</script></tt></div>
+</TD>
+
+</TR>
+
+
+
+
+
+</TABLE>
+
+
+
+</BODY></HTML>
