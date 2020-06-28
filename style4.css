@@ -28,7 +28,7 @@ h3 {
   text-align:justify;
   left: 25%;
   right: 25%;
-  color: #444444;
+  color: #000000;
   margin-bottom: 50px;
 }
 
@@ -47,7 +47,7 @@ h3 {
 }
 
 a {
-  color:#888888;
+  color:#009999;
   text-decoration: none;
 }
 a:hover {
