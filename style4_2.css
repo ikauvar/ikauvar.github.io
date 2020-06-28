@@ -33,7 +33,7 @@ h3 {
 }
 
 .blurb {
-  width: 700px;
+  max-width: 700px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -56,12 +56,30 @@ a:hover {
 
 
 td {
-  padding: 10px;
+  vertical-align:top;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 td img {
-  width: 125;
+  width: 130px;
+ padding-right: 15px;
+
 }
+
+.social-links {
+    width: 8em;
+}
+
+.social-links a { text-decoration: none; }
+
+svg {
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 20px;
+    width: 20px;
+}
+svg path { fill: #333; }
 
 
 
