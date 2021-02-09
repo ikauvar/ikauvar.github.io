@@ -71,6 +71,11 @@ td img {
   padding-right: 15px;
 }
 
+.book img {
+  width: 500px;
+  padding-right: 15px;
+}
+
 .social-links {
     width: 8em;
 }
