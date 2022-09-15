@@ -1,0 +1,1 @@
+convert imma.png -resize 1042x1042 -background white -gravity center -extent 1042x1042 immage_padded.png
