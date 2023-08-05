@@ -19,7 +19,7 @@ h3 {
 }
 
 #pic {
-  width: 400px;
+  width: 350px;
   padding-bottom: 30px;
 }
 
@@ -78,6 +78,9 @@ td img {
 
 .social-links {
     width: 8em;
+    /*margin: auto;*/
+    margin-right: auto;
+    padding-top: 5px;
 }
 
 .social-links a { text-decoration: none; }
